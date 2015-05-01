@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4E4D0BBC1AF141F20062B54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BBB1AF141F20062B54C /* AppDelegate.swift */; };
-		4E4D0BBE1AF141F20062B54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BBD1AF141F20062B54C /* ViewController.swift */; };
+		4E4D0BBE1AF141F20062B54C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BBD1AF141F20062B54C /* AddViewController.swift */; };
 		4E4D0BC11AF141F20062B54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D0BBF1AF141F20062B54C /* Main.storyboard */; };
 		4E4D0BC31AF141F20062B54C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D0BC21AF141F20062B54C /* Images.xcassets */; };
 		4E4D0BC61AF141F20062B54C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4D0BC41AF141F20062B54C /* LaunchScreen.xib */; };
 		4E4D0BD21AF141F20062B54C /* Scavenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BD11AF141F20062B54C /* Scavenger_HuntTests.swift */; };
+		4E4D0BDC1AF151E80062B54C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BDB1AF151E80062B54C /* ListViewController.swift */; };
+		4E4D0BE01AF16D810062B54C /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D0BDF1AF16D810062B54C /* ScavengerHuntItem.swift */; };
+		4EFA5CA21AF18D55005BC164 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA5CA11AF18D55005BC164 /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		4E4D0BB61AF141F20062B54C /* Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D0BBA1AF141F20062B54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4D0BBB1AF141F20062B54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E4D0BBD1AF141F20062B54C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E4D0BBD1AF141F20062B54C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4E4D0BC01AF141F20062B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E4D0BC21AF141F20062B54C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4E4D0BC51AF141F20062B54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4E4D0BCB1AF141F20062B54C /* Scavenger HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavenger HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4D0BD01AF141F20062B54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4D0BD11AF141F20062B54C /* Scavenger_HuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavenger_HuntTests.swift; sourceTree = "<group>"; };
+		4E4D0BDB1AF151E80062B54C /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4E4D0BDF1AF16D810062B54C /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		4EFA5CA11AF18D55005BC164 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				4E4D0BBB1AF141F20062B54C /* AppDelegate.swift */,
-				4E4D0BBD1AF141F20062B54C /* ViewController.swift */,
+				4E4D0BDF1AF16D810062B54C /* ScavengerHuntItem.swift */,
+				4EFA5CA11AF18D55005BC164 /* ItemsManager.swift */,
+				4E4D0BBD1AF141F20062B54C /* AddViewController.swift */,
 				4E4D0BBF1AF141F20062B54C /* Main.storyboard */,
+				4E4D0BDB1AF151E80062B54C /* ListViewController.swift */,
 				4E4D0BC21AF141F20062B54C /* Images.xcassets */,
 				4E4D0BC41AF141F20062B54C /* LaunchScreen.xib */,
 				4E4D0BB91AF141F20062B54C /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4D0BBE1AF141F20062B54C /* ViewController.swift in Sources */,
+				4E4D0BBE1AF141F20062B54C /* AddViewController.swift in Sources */,
 				4E4D0BBC1AF141F20062B54C /* AppDelegate.swift in Sources */,
+				4E4D0BE01AF16D810062B54C /* ScavengerHuntItem.swift in Sources */,
+				4E4D0BDC1AF151E80062B54C /* ListViewController.swift in Sources */,
+				4EFA5CA21AF18D55005BC164 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				4E4D0BD71AF141F20062B54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4D0BD81AF141F20062B54C /* Build configuration list for PBXNativeTarget "Scavenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				4E4D0BDA1AF141F20062B54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
